@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="بازار جهانی ارزهای دیجیتال، نفت و فلزات">
+    <meta name="keyword" content="">
+    <meta name="author" content="محمد مهدی حسین زاده">
+    <title>tgju global-market</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+
+<body>
+    <!-- هدر -->
+    <header class="header shadow">
+        <div class="header-wrapper flex">
+            <div class="header-info flex">
+                <!-- بخش منو و اسم سایت -->
+                <div class="header-menu-btn-site-name flex">
+                    <!-- منو سایت -->
+                    <div class="menu-btn">
+                        <i class="fa-solid fa-bars fa-2xl"></i>
+                    </div>
+                    <!-- بخش اسم سایت -->
+                    <div class="site-name">
+                        <a href="index.html" class="site-name-link flex">
+                            <!-- لوگوی سایت -->
+                            <div class="site-name-logo">
+                                <img src="assets/images/touch-icon-ipad.jpg" alt="tgju">
+                            </div>
+                            <!-- نام سایت -->
+                            <div class="site-name-text flex">
+                                <span class="site-name-title">شبکه‌ بازار جهانی</span>
+                                <span class="site-name-description">طــــــــــلا، ســکــــــــه و ارز</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- باکس جستجو -->
+                <div class="search-box flex">
+                    <form action="#" method="get" class="header-form flex">
+                        <!-- دکمه‌ی جستجو -->
+                        <div class="search-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <input type="text" name="جستجو" placeholder="جستجو در سایت">
+                        <!-- باکس انتخاب برای جستجو -->
+                        <div class="select-box">
+                            <select name="select">
+                                <option class="search-option" value="all" selected>کلیه موارد</option>
+                                <option class="search-option" value="markets.internal">بازار داخلی</option>
+                                <option class="search-option" value="crypto">بازار ارزهای دیجیتال</option>
+                                <option class="search-option" value="markets.stocks">بورس</option>
+                                <option class="search-option" value="markets.global">بازار جهانی</option>
+                                <option class="search-option" value="economics.country">اقتصاد کشورها</option>
+                                <option class="search-option" value="economics.index">شاخص‌های اقتصادی</option>
+                                <option class="search-option" value="economics.forecast">پیش بینی‌ها</option>
+                                <option class="search-option" value="news">اخبار و مقالات</option>
+                                <option class="search-option" value="solutions.farsi">راهنما و آموزش</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- تبلیغ -->
+            <div class="advertise">
+                <img src="assets/images/advertise.gif" alt="">
+            </div>
+        </div>
+        <!-- نوبار -->
+        <nav class="navbar flex">
+            <!-- لیست صفحات در نوبار -->
+            <div class="navbar-list">
+                <ul class="flex">
+                    <li><a href="https://www.tgju.org/" class="li-without-border" target="_blank">صفحه اصلی</a></li>
+                    <li><a href="https://www.tgju.org/local-markets" target="_blank">بازار داخلی</a></li>
+                    <li><a href="#" target="_blank">طلا و ارز</a></li>
+                    <li><a href="#" target="_blank">ارز دیجیتال</a></li>
+                    <li><a href="#" target="_blank">بورس</a></li>
+                    <li><a href="#" target="_blank">بازار داخلی</a></li>
+                    <li><a href="#" target="_blank">صرافی‌ها</a></li>
+                    <li><a href="#" target="_blank">کشور‌ها</a></li>
+                    <li><a href="#" target="_blank">شاخص‌ها</a></li>
+                    <li><a href="#" target="_blank">تحلیل‌ها</a></li>
+                    <li><a href="#" target="_blank">اخبار</a></li>
+                    <li><a href="#" target="_blank">ابزار‌ها</a></li>
+                    <li><a href="#" target="_blank">تماس با ما</a></li>
+                </ul>
+            </div>
+            <!-- آیکن‌های داخل نوبار -->
+            <div class="navbar-sign-in-icons flex">
+                <div class="header-icons flex">
+                    <div class="header-icon">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </div>
+                    <div class="header-icon">
+                        <i class="fa-regular fa-bookmark fa-lg"></i>
+                    </div>
+                    <div class="header-icon">
+                        <i class="fa-regular fa-comment fa-lg"></i>
+                    </div>
+                </div>
+                <!-- دکمه‌ی ورود / ثبت نام -->
+                <div class="sign-in-sing-up">
+                    <button type="submit" class="sign-in-sing-up-btn border-radius">ورود / ثبت نام</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!-- تیتر صفحه -->
+        <div class="title flex">
+            <h1>بازار جهانی</h1>
+        </div>
+        <div class="main-posts-wrapper-position flex">
+            <div class="main-posts-wrapper flex">
+                <!-- پست‌ها -->
+                <a href="#" class="main-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img">
+                            <img src="assets/images/1.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">بازار فلزات گران بها</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>بازار فلزات گران بها</span>
+                    </div>
+                </a>
+                <a href="#" class="main-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img">
+                            <img src="assets/images/2.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">بازار فلزات پایه</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>بازار فلزات پایه</span>
+                    </div>
+                </a>
+                <a href="#" class="main-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img">
+                            <img src="assets/images/3.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">بازار نفت و انرژی</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>بازار نفت و انرژی</span>
+                    </div>
+                </a>
+                <a href="#" class="main-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img">
+                            <img src="assets/images/4.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">مبادلات ارزی (فارکس)</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>مبادلات ارزی (فارکس)</span>
+                    </div>
+                </a>
+                <a href="#" class="main-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img">
+                            <img src="assets/images/5.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">بازار‌های ارزی کشور‌ها</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>بازار‌های ارزی کشور‌ها</span>
+                    </div>
+                </a>
+                <a href="#" class="main-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img">
+                            <img src="assets/images/6.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">بازار ارزهای دیجیتال</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>بازار ارزهای دیجیتال</span>
+                    </div>
+                </a>
+                <a href="#" class="main-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img">
+                            <img src="assets/images/7.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">شاخص‌های جهانی بورس</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>شاخص‌های جهانی بورس</span>
+                    </div>
+                </a>
+                <a href="#" class="main-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img">
+                            <img src="assets/images/8.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">شاخص‌های بورس کشور‌ها</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>شاخص‌های بورس کشور‌ها</span>
+                    </div>
+                </a>
+                <a href="#" class="main-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img">
+                            <img src="assets/images/9.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">بازار‌های سهام کشور‌ها</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>بازار‌های سهام کشور‌ها</span>
+                    </div>
+                </a>
+                <a href="#" class="main-post small-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img small-post-img">
+                            <img src="assets/images/10.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">بازار اوراق قرضه</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>بازار اوراق قرضه</span>
+                    </div>
+                </a>
+                <a href="#" class="main-post small-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img small-post-img">
+                            <img src="assets/images/11.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">صندوق‌های سرمایه‌گذاری</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>صندوق‌های سرمایه‌گذاری</span>
+                    </div>
+                </a>
+                <a href="#" class="main-post small-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img small-post-img">
+                            <img src="assets/images/12.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">صندوق‌های معاملاتی</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>صندوق‌های معاملاتی</span>
+                    </div>
+                </a>
+                <a href="#" class="main-post small-post border-radius shadow flex" target="_blank">
+                    <div class="main-post-img-title">
+                        <figure class="main-post-img small-post-img">
+                            <img src="assets/images/13.jpg" alt="">
+                        </figure>
+                        <div class="main-post-title">بازار‌های کالایی</div>
+                    </div>
+                    <div class="main-post-btn border-radius">
+                        <span>بازار‌های کالایی</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="main-tables-wrapper flex">
+            <div class="table-wrapper shadow">
+                <!-- جدول -->
+                <table class="table">
+                    <!-- عناوین ستون‌های جدول -->
+                    <thead>
+                        <tr>
+                            <th class="text-align-right">قیمت فلزات پایه</th>
+                            <th>قیمت زنده</th>
+                            <th>تغییر</th>
+                            <th>کمترین</th>
+                            <th>بیشترین</th>
+                            <th>زمان</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <!-- بدنه‌ی جدول -->
+                    <tbody>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <!-- عنوان جدول -->
+                                <div class="table-title flex">
+                                    <img src="assets/images/uk.jpg" alt="">
+                                    <span>آلمینیوم</span>
+                                </div>
+                            </th>
+                            <!-- محتوای جدول -->
+                            <td>2170.5</td>
+                            <td class="dir-ltr">
+                                15.5 (0.72%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>2160</td>
+                            <td>2178.5</td>
+                            <td>08:11:56</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/uk.jpg" alt="">
+                                    <span>نیکل (تن)</span>
+                                </div>
+                            </th>
+                            <td>20692</td>
+                            <td class="dir-ltr">
+                                79.5 (0.38%)
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </td>
+                            <td>20693.5</td>
+                            <td>20753</td>
+                            <td>08:12:05</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/uk.jpg" alt="">
+                                    <span>سرب (تن)</span>
+                                </div>
+                            </th>
+                            <td>2153</td>
+                            <td class="dir-ltr">
+                                8 (0.42%)
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </td>
+                            <td>2135</td>
+                            <td>2161.5</td>
+                            <td>08:11:56</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/uk.jpg" alt="">
+                                    <span>روی (تن)</span>
+                                </div>
+                            </th>
+                            <td>2434.5</td>
+                            <td class="dir-ltr">
+                                34.15 (1.44%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>2397</td>
+                            <td>2440</td>
+                            <td>08:12:45</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/uk.jpg" alt="">
+                                    <span>مس (تن)</span>
+                                </div>
+                            </th>
+                            <td>8427.5</td>
+                            <td class="dir-ltr">
+                                60.5 (0.72%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>8375.5</td>
+                            <td>8443.5</td>
+                            <td>08:12:46</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/uk.jpg" alt="">
+                                    <span>قلع</span>
+                                </div>
+                            </th>
+                            <td>25497</td>
+                            <td class="dir-ltr">0 (0%)</td>
+                            <td>25497</td>
+                            <td>25497</td>
+                            <td>05:28:50</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-wrapper shadow">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="text-align-right">قیمت فلزات گران بها</th>
+                            <th>قیمت زنده</th>
+                            <th>تغییر</th>
+                            <th>کمترین</th>
+                            <th>بیشترین</th>
+                            <th>زمان</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <span>انس طلا</span>
+                                </div>
+                            </th>
+                            <td>1,919.76</td>
+                            <td class="dir-ltr">
+                                5.93 (0.31%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>1,913.47</td>
+                            <td>1.925.54</td>
+                            <td>21:50:06</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <span>انس نقره</span>
+                                </div>
+                            </th>
+                            <td>24.21</td>
+                            <td class="dir-ltr">
+                                0.02 (0.07%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>24.07</td>
+                            <td>24.35</td>
+                            <td>21:51:17</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <span>انس پلاتین</span>
+                                </div>
+                            </th>
+                            <td>973.70</td>
+                            <td class="dir-ltr">
+                                22.00 (2.23%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>943.20</td>
+                            <td>976.90</td>
+                            <td>21:57:57</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <span>انس پالادیوم</span>
+                                </div>
+                            </th>
+                            <td>1,261.00</td>
+                            <td class="dir-ltr">
+                                28.20 (2.29%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>1,225.00</td>
+                            <td>1,267.78</td>
+                            <td>21:54:35</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <span>برابری طلا / نقره</span>
+                                </div>
+                            </th>
+                            <td>79.28</td>
+                            <td class="dir-ltr">0.24 (0.31%)
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </td>
+                            <td>78.80</td>
+                            <td>79.55</td>
+                            <td>21:54:40</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <span>برابری طلا / پلاتین</span>
+                                </div>
+                            </th>
+                            <td>1.97</td>
+                            <td class="dir-ltr">
+                                0.04 (2.02%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>1.97</td>
+                            <td>2.03</td>
+                            <td>18:35:26</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-wrapper shadow">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="text-align-right">قیمت کالاها</th>
+                            <th>قیمت زنده</th>
+                            <th>تغییر</th>
+                            <th>کمترین</th>
+                            <th>بیشترین</th>
+                            <th>زمان</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/us.jpg" alt="">
+                                    <span>کتان</span>
+                                </div>
+                            </th>
+                            <td>86.67</td>
+                            <td class="dir-ltr">
+                                0.18 (0.21%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>86.31</td>
+                            <td>86.84</td>
+                            <td>08:11:56</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/us.jpg" alt="">
+                                    <span>شکر</span>
+                                </div>
+                            </th>
+                            <td>25.63</td>
+                            <td class="dir-ltr">0 (0%)</td>
+                            <td>24.83</td>
+                            <td>25.63</td>
+                            <td>6 شهریور</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/us.jpg" alt="">
+                                    <span>سویا</span>
+                                </div>
+                            </th>
+                            <td>1399.88</td>
+                            <td class="dir-ltr">
+                                5.87 (0.42%)
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </td>
+                            <td>1393.75</td>
+                            <td>1406</td>
+                            <td>08:11:56</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/us.jpg" alt="">
+                                    <span>گندم</span>
+                                </div>
+                            </th>
+                            <td>617.1</td>
+                            <td class="dir-ltr">
+                                0.15 (0.02%)
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </td>
+                            <td>614.4</td>
+                            <td>618.12</td>
+                            <td>08:12:45</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/us.jpg" alt="">
+                                    <span>ذرت</span>
+                                </div>
+                            </th>
+                            <td>492.88</td>
+                            <td class="dir-ltr">
+                                4 (0.81%)
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </td>
+                            <td>491.12</td>
+                            <td>496.75</td>
+                            <td>08:12:46</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/us.jpg" alt="">
+                                    <span>برنج</span>
+                                </div>
+                            </th>
+                            <td>16.19</td>
+                            <td class="dir-ltr">
+                                0.098 (0.61%)
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </td>
+                            <td>16.19</td>
+                            <td>16.295</td>
+                            <td>05:28:50</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-wrapper shadow">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="text-align-right">قیمت نفت و انرژی</th>
+                            <th>قیمت زنده</th>
+                            <th>تغییر</th>
+                            <th>کمترین</th>
+                            <th>بیشترین</th>
+                            <th>زمان</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/us.jpg" alt="">
+                                    <span>نفت برنت</span>
+                                </div>
+                            </th>
+                            <td>80.08</td>
+                            <td class="dir-ltr">
+                                0.04 (0.05%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>79.83</td>
+                            <td>80.12</td>
+                            <td>08:11:55</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/uk.jpg" alt="">
+                                    <span>نفت برنت</span>
+                                </div>
+                            </th>
+                            <td>83.88</td>
+                            <td class="dir-ltr">
+                                0.04 (0.05%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>83.58</td>
+                            <td>83.89</td>
+                            <td>08:12:44</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/ir.jpg" alt="">
+                                    <span>نفت اپک</span>
+                                </div>
+                            </th>
+                            <td>86.89</td>
+                            <td class="dir-ltr">
+                                1.18 (1.38%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>86.89</td>
+                            <td>86.89</td>
+                            <td>16:00:09</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/us.jpg" alt="">
+                                    <span>بنزین</span>
+                                </div>
+                            </th>
+                            <td>2.5697</td>
+                            <td class="dir-ltr">
+                                0.0061 (0.24%)
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </td>
+                            <td>2.5603</td>
+                            <td>2.5703</td>
+                            <td>08:11:55</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/us.jpg" alt="">
+                                    <span>گاز طبیعی</span>
+                                </div>
+                            </th>
+                            <td>2.654</td>
+                            <td class="dir-ltr">
+                                0.024 (0.9%)
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </td>
+                            <td>2.652</td>
+                            <td>2.684</td>
+                            <td>08:05:54</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                        <tr class="table-row">
+                            <th class="table-title-wrapper">
+                                <div class="table-title flex">
+                                    <img src="assets/images/uk.jpg" alt="">
+                                    <span>گازوئیل</span>
+                                </div>
+                            </th>
+                            <td>936</td>
+                            <td class="dir-ltr">
+                                5.75 (0.62%)
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </td>
+                            <td>927.63</td>
+                            <td>936.75</td>
+                            <td>08:12:45</td>
+                            <td><i class="fa-solid fa-chart-simple fa-xl"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <!-- فوتر -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <!-- لینک صفحات در فوتر -->
+            <div class="footer-links flex">
+                <ul class="footer-links-column">
+                    <li class="footer-links-title"><a href="#">بازارهای داخلی + رمزارزها</a></li>
+                    <li><a href="#" target="_blank">قیمت ارزهای آزاد</a></li>
+                    <li><a href="#" target="_blank">قیمت ارزهای سنا</a></li>
+                    <li><a href="#" target="_blank">قیمت ارزهای نیما</a></li>
+                    <li><a href="#" target="_blank">قیمت ارز های بانکی</a></li>
+                    <li><a href="#" target="_blank">ارزهای دیجیتال</a></li>
+                    <li><a href="#" target="_blank">ابزارهای کریبتو</a></li>
+                    <li><a href="#" target="_blank">صرافی‌های داخلی رمزارزها</a></li>
+                    <li><a href="#" target="_blank">صرافی‌های جهانی رمزارزها</a></li>
+                    <li><a href="#" target="_blank">مقایسه بازارهای داخلی رمزارزها</a></li>
+                    <li><a href="#" target="_blank">مقایسه بازارهای جهانی رمزارزها</a></li>
+                </ul>
+                <ul class="footer-links-column">
+                    <li class="footer-links-title"><a href="#">بازارهای جهانی</a></li>
+                    <li><a href="#" target="_blank">بازار مبادلات ارزی</a></li>
+                    <li><a href="#" target="_blank">بازارهای ارزی کشورها</a></li>
+                    <li><a href="#" target="_blank">شاخص های بورس کشورها</a></li>
+                    <li><a href="#" target="_blank">بازار سهام کشورها</a></li>
+                    <li><a href="#" target="_blank">بازار اوراق قرضه کشورها</a></li>
+                    <li><a href="#" target="_blank">صندوق های سرمایه گذاری</a></li>
+                    <li><a href="#" target="_blank">صندوق های معاملاتی</a></li>
+                    <li><a href="#" target="_blank">تقویم اقتصادی</a></li>
+                    <li><a href="#" target="_blank">اقتصاد کشورها</a></li>
+                    <li><a href="#" target="_blank">پیش بینی اقتصاد کشورها</a></li>
+                </ul>
+                <ul class="footer-links-column">
+                    <li class="footer-links-title"><a href="#">بازارهای جهانی</a></li>
+                    <li><a href="#" target="_blank">بازار فلزات گران بها</a></li>
+                    <li><a href="#" target="_blank">بازار فلزات پایه</a></li>
+                    <li><a href="#" target="_blank">بازار نفت و انرژی</a></li>
+                    <li><a href="#" target="_blank">بازارهای کالایی</a></li>
+                    <li><a href="#" target="_blank">پیش بینی بازار طلا و نفت </a></li>
+                    <li><a href="#" target="_blank">پیش بینی بازار ارز کشورها</a></li>
+                    <li><a href="#" target="_blank">پیش بینی بازار سهام کشورها</a></li>
+                    <li><a href="#" target="_blank">پیش بینی بازار اوراق کشورها</a></li>
+                    <li><a href="#" target="_blank">شاخص های اقتصادی</a></li>
+                    <li><a href="#" target="_blank">پیش بینی شاخص های اقتصادی</a></li>
+                </ul>
+                <ul class="footer-links-column">
+                    <li class="footer-links-title"><a href="#">بورس و فرابورس</a></li>
+                    <li><a href="#" target="_blank">بازار بورس</a></li>
+                    <li><a href="#" target="_blank">بازار فرابورس</a></li>
+                    <li><a href="#" target="_blank">شاخص ها</a></li>
+                    <li><a href="#" target="_blank">سهام</a></li>
+                    <li><a href="#" target="_blank">صندوق ها</a></li>
+                    <li><a href="#" target="_blank">اوراق</a></li>
+                    <li><a href="#" target="_blank">ترازنامه</a></li>
+                    <li><a href="#" target="_blank">سود و زیان</a></li>
+                    <li><a href="#" target="_blank">بازار آتی (فیوچر)</a></li>
+                    <li><a href="#" target="_blank">بازار اختیار معامله (آپشن)</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- باکس راه‌های دانلود برنامه سایت -->
+            <div class="apps-box flex">
+                <div class="apps-box-title flex">
+                    <img src="assets/images/touch-icon-ipad.jpg" alt="tgju">
+                    <span>دانلود اپلیکیشن‌ها</span>
+                </div>
+                <!-- محتوای باکس دانلود -->
+                <div class="apps-box-content">
+                    <ul class="apps-box-list flex">
+                        <li class="border-radius">
+                            <a href="#" class="flex" target="_blank">
+                                <img src="assets/images/myket.jpg" class="apps-box-img" alt="">
+                                <div class="list-item-text flex">
+                                    <span class="take-from">دریافت از</span>
+                                    <span class="logo-name">مایکت</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="border-radius">
+                            <a href="#" class="flex" target="_blank">
+                                <img src="assets/images/cafebazar.jpg" class="apps-box-img" alt="">
+                                <div class="list-item-text flex">
+                                    <span class="take-from">دریافت از</span>
+                                    <span class="logo-name">کافه‌بازار</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="border-radius">
+                            <a href="#" class="flex" target="_blank">
+                                <img src="assets/images/googleplay.jpg" class="apps-box-img" alt="">
+                                <div class="list-item-text flex">
+                                    <span class="take-from">دریافت از</span>
+                                    <span class="logo-name">گوگل‌پلی</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="border-radius">
+                            <a href="#" class="flex" target="_blank">
+                                <img src="assets/images/iapps.jpg" class="apps-box-img" alt="">
+                                <div class="list-item-text flex">
+                                    <span class="take-from">دریافت از</span>
+                                    <span class="logo-name">آی‌اپس</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="border-radius">
+                            <a href="#" class="flex" target="_blank">
+                                <img src="assets/images/anardony.jpg" class="apps-box-img" alt="">
+                                <div class="list-item-text flex">
+                                    <span class="take-from">دریافت از</span>
+                                    <span class="logo-name">اناردونی</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="border-radius">
+                            <a href="#" class="flex" target="_blank">
+                                <img src="assets/images/windows.jpg" class="apps-box-img" alt="">
+                                <div class="list-item-text flex">
+                                    <span class="take-from">دریافت از</span>
+                                    <span class="logo-name">ویندوز</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- شبکه‌های اجتماعی -->
+            <div class="social-media-wrapper flex">
+                <div class="apps-box-title flex">
+                    <img src="assets/images/link-circle-svgrepo-com.svg" alt="">
+                    <span>شبکه‌های اجتماعی</span>
+                </div>
+                <div class="social-media flex">
+                    <a href="#" target="_blank">
+                        <img src="assets/images/email-svgrepo-com.svg" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="assets/images/whatsapp-icon-logo-svgrepo-com.svg" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="assets/images/pinterest-svgrepo-com.svg" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="assets/images/instagram-svgrepo-com.svg" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="assets/images/telegram-svgrepo-com.svg" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="assets/images/youtube-svgrepo-com.svg" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="assets/images/linkedin-svgrepo-com.svg" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="assets/images/twitter-svgrepo-com.svg" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="assets/images/facebook-svgrepo-com.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- کپی‌رایت -->
+            <div class="copyright flex">
+                <span>شبکه بازار جهانی، سکه و ارز © 1402-1401</span>
+                <span>هر گونه کپی برداری از محتوا، تولیدات، شکل و سایر اجزای سایت صرفا با موافقت مکتوب مجاز می
+                    باشد</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
